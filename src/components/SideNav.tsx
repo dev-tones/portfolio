@@ -23,7 +23,7 @@ export default function SideNav() {
   return (
     <>
       {/* Mobile top bar */}
-      <div className="md:hidden sticky top-0 z-40 flex items-center justify-between bg-neutral-950/80 backdrop-blur px-4 py-3 border-b border-white/10">
+      <div className="md:hidden sticky top-0 z-40 flex items-start justify-between bg-neutral-950/80 backdrop-blur px-4 py-3 border-b border-white/10">
         <button
           aria-label="Open navigation"
           onClick={() => setOpen(true)}
